@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Mono", monospace;
+}
+
+body {
+    background-color: rgb(181, 181, 197);
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 32, 173);
+}
+
+.area {
+    width: 640px;
+    background-color: rgb(226, 226, 233);
+    padding: 42px;
+    margin-top: 42px;
+    border: 1px solid rgb(168, 168, 183);
+    border-radius: 24px;
+    filter: drop-shadow(rgb(168, 168, 183) 0 5px 20px);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 42px;
+    padding-bottom: 24px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+}
+
+form input {
+    width: 67.5%;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 0.5px solid rgb(181, 181, 197);
+    border-radius: 12px;
+    color: rgb(181, 181, 197);
+    background-color: rgb(238, 238, 244);
+}
+
+form button {
+    width: 27.5%;
+    border: none;
+    border-radius: 12px;
+    padding: 4px auto;
+    background-color: rgb(32, 32, 173);
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(226, 226, 233);
+}
+
+ul li {
+    list-style: none;
+    color: rgb(32, 32, 173);
+    font-size: 16px;
+}
+
+ul li .concluida {
+    text-decoration: line-through;
+}
