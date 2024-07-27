@@ -1,198 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <title>Projeto Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Meu portal de notícias</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                    </li>
-                    <li>
-                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="sports">
-        <div class="container">
-            <h2>Esportes</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Grande clássico na noite de hoje</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Noite do Superbowl</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Notícia sobre a NBA</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Notícia sobre a NBA</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Entre em contato</h2>
+                <form>
+                    <label class="form-label" for="nome">Seu nome</label>
+                    <input class="form-control" type="text" id="nome" />
+                    <label class="form-label" for="email">Seu email</label>
+                    <input class="form-control" type="email" id="email" />
+                    <label class="form-label" for="telefone">Seu telefone</label>
+                    <input class="form-control" type="tel" id="telefone" />
+                    <button class="btn btn-success">Enviar</button>
+                </form>
             </div>
         </div>
-    </section>
-    <section id="economy">
-        <div class="container">
-            <h2>Economia</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Dólar em alta de 0.50%</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Euro em queda de 0.40%</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Alta no preço do barril do petróleo</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section id="culture">
-        <div class="container">
-            <h2>Cultura</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/bob.png" alt="Bob Marley com sua gitarra" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Cinebiografia de Bob Marley mostra o gênio da música em meio à violência na Jamaica</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/angela.png" alt="Angela Davis" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Angela Davis completa 80 anos como ícone marxista e antirracista</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/kafka.png" alt="Foto de Kafka" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Criatura inventada por Kafka simboliza drama judeu atual</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section id="tech">
-        <div class="container">
-            <h2>Tecnologia</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/visionpro.png" alt="Mulher usando o Vision Pro no rosto" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Por que não é uma boa ideia importar o Apple Vision Pro para o Brasil</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/chatgpt.png" alt="Interface do ChatGPT" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>ChatGPT já permite acesso direto a “GPTs” personalizados; saiba mais</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/rabbit.png" alt="Rabbit R1" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>R1, do Rabbit: conheça o assistente que bota IA no bolso</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
+    </div>
 </body>
 </html>
